@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio- Contacto</h1>
+    </header>
+    <nav>
+        <input type="checkbox" id="menu">
+        <label for="menu"> ☰ </label>
+        <ul>
+            <a class="letrabotones" href="index.html"><li>Inicio</li></a>
+            <a class="letrabotones" href="personal.html"><li>Datos personales</li></a>
+            <a class="letrabotones" href="educacion.html"><li>Formacion Academica</li></a>
+            <a class="letrabotones" href="conocimientos.html"><li>Conocimientos</li></a>
+            <a class="letrabotones" href="experiencia.html"><li>Otras experiencias</li></a>
+            <a class="letrabotones" href="contacto.html"><li>Contacto</li></a>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="divh1">
+            <p>Ante cualquier duda, me puede contactar mediante el formulario.</p>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                
+                <button type="button" id="enviar">Enviar</button>
+            </form>
+            
+        </div>
+        <div class="divh1">
+            <h2 style="color: #000000;">Mi Ubicación</h2>
+        </div>
+        <div class="div-maps">
+            <!----><iframe class="maps" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Lima%20757,%20C1073%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires+(TigreVet%20-%20direccion)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe>
+        </div>
+        <button id="scrollToTop" style="color: #fff;">Top</button>
+    </main>
+    <footer>
+            <a class="letrafooter" href="mailto:tobiasarias51@gmail.com">© Tobias lionel Arias2024</a>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
